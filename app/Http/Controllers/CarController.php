@@ -40,9 +40,9 @@ class CarController extends Controller
     }
 
     public function search(Request $request){
-        $car = Car::where("type",$request->type)->get();
+        $car = Car::where("brand",$request->brand)->get();
         return view("show_car",[
-            "car"=>$car
+            "cars"=>$car
         ]);
     }
 

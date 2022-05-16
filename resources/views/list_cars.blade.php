@@ -4,15 +4,15 @@
 <div class="row">
     <div class="col-4">
         <form action="search">
-        <select class="form-select" aria-label="Default select example">
-            <option selected>Open this select menu</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
+        <select class="form-select" aria-label="Default select example" name="brand">
+            <option selected>vállasz márkát</option>
+            <option value="1">bmw</option>
+            <option value="2">suzuki</option>
+            <option value="3">audi</option>
         </select>
         <button class="btn btn-info mt-2" type="submit">keresés</button>
         </form>
-        <div class="col-8">
+        <div class="container">
             <a class="btn btn-warning mb-1" href="/register">Regisztráció</a>
             <a class="btn btn-warning mb-1" href="/login">Bejelentkezés</a>
             <a class="btn btn-warning mb-1" href="/logout">Kijelentkezés</a>
